@@ -90,16 +90,7 @@ export default {
           this.newSong = {artist: '', title: ''}
           this.editing = false
         },
-        // getNewId(){
-        //   let id = this.songs.length
-                    
-        //     this.songs.forEach(song => {
-        //       if(id == song.id){
-        //         id ++
-        //       }
-        //     });
-        //   return id
-        // },
+       
         getRecommendation(){
           this.recommend = true
         }
